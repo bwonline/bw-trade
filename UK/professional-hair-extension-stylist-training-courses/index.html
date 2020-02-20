@@ -34,7 +34,7 @@
             <hr />
         </div>
 
-        <div class="grid12-12 banner">
+        <div class="grid12-12 banner fastTrackTraining">
             <div class="grid12-6">
                 <img src="{{media url="bwt2017/beauty-works-offer-award-winning-hair.jpg"}}" alt="" title="" />
                 <p>Offer award winning hair</p>
@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div class="grid12-12 banner">
+        <div class="grid12-12 banner fastTrackTraining">
             <div class="grid12-6">
                 <img src="{{media url="bwt2017/professional-hair-extension-kits.jpg"}}" alt="" title="" />
                 <p>Professional hair extension kit worth £300</p>
@@ -55,7 +55,7 @@
                 <p>Manager assigned to your account</p>
             </div>
         </div>
-        <div class="grid12-12 banner">
+        <div class="grid12-12 banner fastTrackTraining">
             <div class="grid12-6">
                 <img src="{{media url="bwt2017/marketing-material.jpg"}}" alt="" title="" />
                 <p>Marketing material</p>
@@ -65,7 +65,7 @@
                 <p>Enjoy Beauty Works promotions</p>
             </div>
         </div>
-        <div class="grid12-12 banner">
+        <div class="grid12-12 banner fastTrackTraining">
             <div class="grid12-6">
                 <img src="{{media url="bwt2017/become-beauty-works-certified-stylist.jpg"}}" alt="" title="" />
                 <p>Become a Beauty Works certified stylist</p>
@@ -375,6 +375,21 @@
 </div>
 
 <style>
+    @media only screen and (max-width: 425px) {
+        .fastTrackTraining {
+            display: flex;
+        }
+
+        .fastTrackTraining img {
+            width: 65px;
+        }
+
+        .fastTrackTraining p {
+            font-size: 13px;
+            padding-top: 10px;
+        }
+    }
+
     @media only screen and (max-width: 320px) {
         .courseMargin {
             margin-top: 1rem !important;
