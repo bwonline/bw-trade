@@ -1,9 +1,9 @@
 <div class="nested-container">
     <div class="page-banners clearer">
         <div class="grid12-12 banner">
-            <img src="{{media url="wysiwyg/bwt17sep/Beauty_Works_Habia_Banner.jpg"}}"
-                alt="Beauty Works Professional Hair Extension Stylist Courses"
-                title="Beauty Works Professional Hair Extension Stylist Courses" />
+            <img src="{{media url="wysiwyg/training-courses/Habia-Logo.jpg"}}"
+                alt="Beauty Works Training Courses endorsed by HABIA"
+                title="Beauty Works Training Courses endorsed by HABIA" id="habiaLogo" />
         </div>
     </div>
 </div>
@@ -394,14 +394,27 @@
         width: 80%;
     }
 
+    #habiaLogo {
+        width: 20%;
+        display: block;
+        margin: 0 auto;
+    }
 
     @media only screen and (max-width: 768px) {
         .courseMargin {
             margin-top: 1.5rem !important;
         }
+
+        #habiaLogo {
+            width: 30%;
+        }
     }
 
     @media only screen and (max-width: 425px) {
+        #habiaLogo {
+            width: 70%;
+        }
+
         .fastTrackTraining {
             display: flex;
         }
