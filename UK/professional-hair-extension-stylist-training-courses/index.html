@@ -1,6 +1,7 @@
 <div class="nested-container">
     <div class="page-banners clearer">
-        <div class="grid12-12 banner"><img src="{{media url="wysiwyg/bwt17sep/Beauty_Works_Habia_Banner.jpg"}}"
+        <div class="grid12-12 banner">
+            <img src="{{media url="wysiwyg/bwt17sep/Beauty_Works_Habia_Banner.jpg"}}"
                 alt="Beauty Works Professional Hair Extension Stylist Courses"
                 title="Beauty Works Professional Hair Extension Stylist Courses" />
         </div>
@@ -393,6 +394,13 @@
         width: 80%;
     }
 
+
+    @media only screen and (max-width: 768px) {
+        .courseMargin {
+            margin-top: 1.5rem !important;
+        }
+    }
+
     @media only screen and (max-width: 425px) {
         .fastTrackTraining {
             display: flex;
@@ -406,9 +414,13 @@
             font-size: 13px;
             padding-top: 10px;
         }
+
+        .courseMargin {
+            margin-top: 0rem !important;
+        }
     }
 
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 375px) {
         .courseMargin {
             margin-top: 1rem !important;
         }
